@@ -3,28 +3,69 @@
 <head>
     <meta charset="UTF-8">
     <title>Assessment</title>
+    <link rel="stylesheet" href="grid.css">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <header id="header-bg">
-        <nav class="row">
-            <ul id="nav-links">
-                <li id="logo">LOGO</li>
+        <div class="row-padding">
+            <nav>
+                <ul id="nav-links">
+                    <li id="logo">LOGO</li>
 
-                <li>FAQ</li>
-                <li>Generic Schedule</li>
-                <li>Generic Text</li>
-            </ul>
-        </nav>
-        <div class="row">
-            <div class="col"></div>
+                    <li>FAQ</li>
+                    <li>Generic Schedule</li>
+                    <li>Generic Text</li>
+                </ul>
+            </nav>
         </div>
+
+        <div class="row">
+            <div class="col one-fourth"></div>
+            <div class="col offset-one-fourth one-half center">
+                <p>Text <strong>Everyday, Everything, Everywhere</strong><br>and your generic text<strong>fully-funded Text</strong></p>
+            </div>
+            <div class="col one-fourth"></div>
+        </div>
+        <form class="row">
+            <div class="col offset-one-fourth one-half">
+                <div class="row">
+                    <input type="text" placeholder="Email address">
+                    <input type="text" placeholder="Select your District">
+                    <button type="submit" id="go-button">GO</button>
+                </div>
+                <div class="row">
+                    <input type="checkbox" checked><small>I'd like to receive updates from Generic Text about this program</small>
+                </div>
+            </div>
+        </form>
+
+
     </header>
-    <div id="main" class="container">
+    <div id="main">
+        <div class="row">
+            <div id="column-with-border" class="col one-half">
+                <div class="row center">
+                    <h2>There are currently</h2>
+                </div>
+                <div id="counter" class="row center">
+                </div>
+                <div class="row center">
+                    <h2>Pledges from the 10 <br>Districts of City, ST.</h2>
+                </div>
+
+            </div>
+            <div class="col one-half">
+                <div class="row">
+                    <p>LEADERBOARD</p>
+
+                </div>
+            </div>
+        </div>
 
     </div>
-    <footer>
-
+    <footer class="row center">
+        <small>•2015 Generic Text</small>
     </footer>
 <script src="main.js"></script>
 </body>
