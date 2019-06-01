@@ -40,16 +40,8 @@ body {
     .one-sixth {
         width: 33.33%;
     }
-    .two-third,
-    .five-eighths,
-    .five-sixth {
-        width: 66.67%;
-    }
     .one-eighth {
         width: 25%;
-    }
-    .seven-eighth {
-        width: 75%;
     }
 }
 
@@ -69,24 +61,6 @@ body {
     .three-fourth {
         width: 75%;
     }
-    .one-sixth {
-        width: 16.66%;
-    }
-    .five-sixth {
-        width: 83.33%;
-    }
-    .one-eighth {
-        width: 12.5%
-    }
-    .three-eighth {
-        width: 37.5%;
-    }
-    .five-eighth {
-        width: 62.5%
-    }
-    .seven-eighth {
-        width: 87.5%;
-    }
 
     /*   offsets   */
 
@@ -104,23 +78,5 @@ body {
     }
     .offset-three-fourth {
         margin-left: 75%;
-    }
-    .offset-one-sixth {
-        margin-left: 16.66%;
-    }
-    .offset-five-sixth {
-        margin-left: 83.33%;
-    }
-    .offset-one-eighth {
-        margin-left: 12.5%;
-    }
-    .offset-three-eighth {
-        margin-left: 37.5%;
-    }
-    .offset-five-eighth {
-        margin-left: 62.5%;
-    }
-    .offset-seven-eighth{
-        margin-left: 87.5%;
     }
 }
