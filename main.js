@@ -3,6 +3,7 @@
 console.log("hello world");
 window.onload = (
 function count(id, start, end, duration) {
+    let speed = 1000;
     let range = end - start;
     let current = start;
     let increment = end > start? 1 : -1;
@@ -15,6 +16,7 @@ function count(id, start, end, duration) {
             clearInterval(timer);
         }
     }, step);
+
 
     count("counter", 0, 1423, 6000)
 
