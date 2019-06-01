@@ -60,6 +60,11 @@ header{
     margin: 5px;
 }
 
+input#checkbox {
+    background-color: #4071b6;
+    color: #fff;
+}
+
 /*************
 *   navbar   *
 *************/
@@ -127,14 +132,16 @@ nav {
 }
 
 #column-with-border {
+
     border-right: 1px solid #fff;
-    height: 50vh;
+    height: 40vh;
     padding: 20px;
+    margin-top: 35px;
     /*position: absolute;*/
 }
 
 #recycle-row {
-    display: flex;
+    display: inline-flex;
     justify-content: flex-end;
     align-items: center;
     /*position: absolute;*/
@@ -143,7 +150,27 @@ nav {
 #recycle-circle {
     position: relative;
     right: -75px;
-    top: 15px;
+    top: -70px;
+}
+#recycle-text {
+    position: relative;
+    left: -75px;
+}
+
+#counter {
+    font-size: 50px;
+    color: #5affa8;
+}
+
+.district {
+    height: 25px;
+    border-radius: 3px;
+    background-color: #4071b6;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    margin: 3px;
+
 }
 
 /*************
