@@ -45,6 +45,10 @@ header{
     justify-content: center;
 }
 
+#select {
+    background: #004b8e url("img/downarrow.png") no-repeat right;
+}
+
 #go-button {
     background-color: #fff;
     color: #115eaa;
@@ -75,8 +79,18 @@ nav {
     margin: 0;
     padding: 0;
 }
+.right {
+    list-style: none;
+    color: #a0b8db;
+    font-size: 12px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin: 5px;
+    padding: 5px;
 
-#nav-links > li {
+}
+.right > li {
     padding: 10px;
 }
 
@@ -84,16 +98,29 @@ nav {
     background-color: #fff;
     color: #4071b6;
     width: 80px;
+    height: 35px;
     display: flex;
     justify-content: center;
     align-items: center;
     font-size: 16px;
+}
+.left {
+    display: inline-flex;
+    justify-content: flex-start;
+    height: 35px;
+}
+
+.form {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
 }
 
 /***********
 *   main   *
 ***********/
 #main {
+    margin-right: 20px;
     background-color: #4d7abc;
     height: 50vh;
     color: #fff;
@@ -102,6 +129,21 @@ nav {
 #column-with-border {
     border-right: 1px solid #fff;
     height: 50vh;
+    padding: 20px;
+    /*position: absolute;*/
+}
+
+#recycle-row {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    /*position: absolute;*/
+}
+
+#recycle-circle {
+    position: relative;
+    right: -75px;
+    top: 15px;
 }
 
 /*************
